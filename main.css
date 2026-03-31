@@ -48,6 +48,12 @@ footer{
 }
 
 /* font styling area */
+title{
+    color: rgb(46, 213, 85);
+}
+h1{
+    color: rgb(46, 213, 85);
+}
 h2{
     color: rgb(46, 213, 85);
     font-variation-settings: "opsz" 16, "wght" 900, "slnt" -8;
