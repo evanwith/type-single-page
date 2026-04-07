@@ -8,6 +8,7 @@
     body{
     background-color: rgb(46, 23, 124);
     font-family: "ExtendomaticVariable";
+    overflow: hidden;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
