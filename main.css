@@ -5,7 +5,11 @@
     font-weight: normal;
     }
     
-
+head{
+    
+    max-width:fit-content;
+    overflow:hidden;
+}
     
     body{
     background-color: rgb(46, 23, 124);
