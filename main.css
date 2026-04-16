@@ -242,10 +242,11 @@ h5{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-#download{
+.download{
     background-color: rgb(155, 212, 239);
     font-family: "Extendomatic Variable";
     font-size: 40px;
     text-align: center;
     grid-area: d;
 }
+
