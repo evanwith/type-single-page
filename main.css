@@ -119,10 +119,16 @@ font-family: "Extendomatic Variable";
 font-size: xx-large;
 }
 }
+
+#car{
+}
+
 /* CSS for the footer */
 footer{
     background-color: rgb(4, 77, 122);
-    height:200px;
+    height: 50px;
+    font-family: "Extendomatic Variable";
+    font-size: 40px;
 }
 
 /* font styling area */
