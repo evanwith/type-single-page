@@ -161,20 +161,31 @@ h3{
 }
 @keyframes weightVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "TRAK" 16, "wght" 200, "slnt" 0;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "TRAK" 16, "wght" 900, "slnt" 0;
     }
 }
-/* where the animation is for the width change */
+/* where the animation is for the slant change */
 .slant{
     animation: slantVariations 5s infinite;
 }
 @keyframes slantVariations {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "TRAK" 16, "wght" 200, "slnt" 20;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" 0;
+    50%{font-variation-settings: "TRAK" 16, "wght" 200, "slnt" -20;
+    }
+}
+
+.tracking{
+    animation: trackingVariations 5s infinite;
+}
+@keyframes trackingVariations {
+    0%, 100%{
+        font-variation-settings: "TRAK" 16, "wght" 200, "slnt" 0;
+    }
+    50%{font-variation-settings: "TRAK" 70, "wght" 200, "slnt" 0;
     }
 }
 
