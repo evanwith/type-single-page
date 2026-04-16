@@ -242,11 +242,21 @@ h5{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-.download{
-    background-color: rgb(155, 212, 239);
+.first {
+    background-color: #00c3ff;
+    color: rgb(16, 5, 85);
     font-family: "Extendomatic Variable";
-    font-size: 40px;
-    text-align: center;
+    grid-area: d;
+    max-width: 80px;
+    max-height: 80px;
+    text-align:center;
+}
+
+.first:hover {
+    background-color: #220f71;
+    color:azure;
+    font-family: "Extendomatic Variable";
     grid-area: d;
 }
+
 
