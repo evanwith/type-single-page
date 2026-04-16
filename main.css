@@ -105,10 +105,10 @@ body{
 display: grid;
 grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: auto;
+grid-template-rows: 1fr 20px 1fr;
 grid-template-areas: 
     "v . h"
-    "a a ."
+    "a a a"
     ". d ."
 }
 
@@ -166,6 +166,26 @@ h3{
     font-family: "Extendomatic Variable";
     /* animation: weightChange 7s infinite; */
 }
+
+
+.first {
+    background-color: #00c3ff;
+    color: rgb(16, 5, 85);
+    font-family: "Extendomatic Variable";
+    grid-area: d;
+    max-width: 1000px;
+    max-height: 1000px;
+    text-align:center;
+    margin-left: 700px;
+}
+
+.first:hover {
+    background-color: #220f71;
+    color:azure;
+    font-family: "Extendomatic Variable";
+    grid-area: d;
+}
+
 /* where we changed the animation */
 @keyframes weightChange {
     0%, 100%{
@@ -242,21 +262,6 @@ h5{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-.first {
-    background-color: #00c3ff;
-    color: rgb(16, 5, 85);
-    font-family: "Extendomatic Variable";
-    grid-area: d;
-    max-width: 80px;
-    max-height: 80px;
-    text-align:center;
-}
 
-.first:hover {
-    background-color: #220f71;
-    color:azure;
-    font-family: "Extendomatic Variable";
-    grid-area: d;
-}
 
 

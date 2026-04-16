@@ -1,2 +1,4 @@
 # # What is this project?
- 
+ This is a website that talks about the variable font, Extendomatic, created by David Jonathan Ross. It provides the story behind the font and it's creation, showing what it looks like, animations of what the three axes can do, and so on. It also links to DJR's webpage about the font, allowing people to buy or try the fonnt as they please.
+
+ This project was the first time I tried doing things involving animations and trying out a different format. There are definitely multiple things I want to improve (like the animations, I have no clue why some of them work the way they do, specifically affecting things that have zero animation code attached to them). 
