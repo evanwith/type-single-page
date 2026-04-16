@@ -16,6 +16,7 @@ head{
     
     max-width:fit-content;
     overflow:hidden;
+    background-color: rgb(80, 170, 230);
 }
 body{
     background-color: rgb(46, 23, 124);
@@ -78,7 +79,7 @@ body{
 }
     
     body{
-    background-color: rgb(46, 23, 124);
+    background-image: linear-gradient(to bottom, rgb(80, 170, 230), rgb(11, 101, 156));
     font-family: "ExtendomaticVariable";
 }
 /* how the page wrapper will appear on mobile */
@@ -100,6 +101,8 @@ grid-template-areas:
     "a a"
 }
 
+
+
 #history {
 grid-area: h;
 background-color: rgb(94, 127, 238);
@@ -117,7 +120,7 @@ font-size: xx-large;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(26, 8, 85);
+    background-color: rgb(11, 101, 156);
     height:200px;
 }
 
@@ -207,3 +210,6 @@ h5{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
+header{
+    background-color: rgb(80, 170, 230);
+}
