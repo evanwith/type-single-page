@@ -77,7 +77,8 @@ body{
   font-size: 1.1rem;
   line-height: 1.4;
 }
-    
+
+
     body{
     background-image: linear-gradient(to bottom, rgb(80, 170, 230), rgb(11, 101, 156));
     font-family: "ExtendomaticVariable";
@@ -105,7 +106,7 @@ grid-template-areas:
 
 #history {
 grid-area: h;
-background-color: rgb(94, 127, 238);
+background-color: rgb(155, 212, 239);
 }
 
 #variations{
@@ -120,7 +121,7 @@ font-size: xx-large;
 }
 /* CSS for the footer */
 footer{
-    background-color: rgb(11, 101, 156);
+    background-color: rgb(4, 77, 122);
     height:200px;
 }
 
@@ -166,10 +167,10 @@ h3{
     }
 }
 /* where the animation is for the width change */
-.width{
-    animation: widthVariations 5s infinite;
+.slant{
+    animation: slantVariations 5s infinite;
 }
-@keyframes widthVariations {
+@keyframes slantVariations {
     0%, 100%{
         font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
     }
@@ -210,6 +211,4 @@ h5{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-header{
-    background-color: rgb(80, 170, 230);
-}
+
