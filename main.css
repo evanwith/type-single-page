@@ -114,9 +114,15 @@ grid-template-areas:
 
 
 
+
+}
+
 #history {
 grid-area: h;
 background-color: rgb(155, 212, 239);
+width: 400px;
+margin-trim: 30px;
+text-align: left;
 }
 
 #variations{
@@ -127,7 +133,7 @@ grid-area: v;
 grid-area: a;
 font-family: "Extendomatic Variable";
 font-size: xx-large;
-}
+text-align: center;
 }
 
 /* CSS for the footer */
@@ -177,6 +183,7 @@ h3{
         font-variation-settings: "TRAK" 16, "wght" 200, "slnt" 0;
     }
     50%{font-variation-settings: "TRAK" 16, "wght" 900, "slnt" 0;
+
     }
 }
 /* where the animation is for the slant change */
@@ -198,7 +205,7 @@ h3{
     0%, 100%{
         font-variation-settings: "TRAK" 16, "wght" 200, "slnt" 0;
     }
-    50%{font-variation-settings: "TRAK" 70, "wght" 200, "slnt" 0;
+    50%{font-variation-settings: "TRAK" 60, "wght" 200, "slnt" 0;
     }
 }
 
