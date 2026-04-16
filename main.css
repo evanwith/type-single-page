@@ -18,6 +18,15 @@ head{
     overflow:hidden;
     background-color: rgb(80, 170, 230);
 }
+
+#navbar{
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(80, 170, 230);
+    font-family: "Extendomatic Variable";
+    color: rgb(80, 170, 230);
+}
+
 body{
     background-color: rgb(46, 23, 124);
     font-family: "Extendomatic Variable";
@@ -98,8 +107,9 @@ grid-gap: 25px;
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
-    "v h"
-    "a a"
+    "v . h"
+    "a a ."
+    ". d ."
 }
 
 
@@ -120,13 +130,10 @@ font-size: xx-large;
 }
 }
 
-#car{
-}
-
 /* CSS for the footer */
 footer{
     background-color: rgb(4, 77, 122);
-    height: 50px;
+    height: 200px;
     font-family: "Extendomatic Variable";
     font-size: 40px;
 }
@@ -228,4 +235,10 @@ h5{
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
 
-
+#download{
+    background-color: rgb(155, 212, 239);
+    font-family: "Extendomatic Variable";
+    font-size: 40px;
+    text-align: center;
+    grid-area: d;
+}
